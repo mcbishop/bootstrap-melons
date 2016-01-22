@@ -50,16 +50,21 @@ A row with a table that’s only visible on large devices
 Add the image of your choice to the top of the page.
  -->
 
+<!--
+REMINDER: CSS FIXES
+.navbar {
+    margin bottom: 0px;
+}
+-->
 
 <div class="jumbotron">
     <div class="container">
         <div class = "row">
-            <div class="col-xs-offset-4 col-xs-4">
-        <h1>Melon FriendFinder!</h1>
-        <img src="image/melons.jpg">
-        <p>Our bold, scientific approach to spherical matching means more quality melons with deeply juicy melons that truly understand your seedy inner core...!
-</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            <div class="col-lg-offset-2 col-xs-12 col-md-12 col-lg-10">
+                <h1>Melon Mates!</h1>
+                <img src="image/melons.jpg">
+                <p>Our bold, scientific approach to spherical matching means more quality melons with deeply juicy melons that truly understand your seedy inner core...!
+                </p>
         </div>
     </div>
 </div>
@@ -98,6 +103,48 @@ Add the image of your choice to the top of the page.
     </div>
 </div>
 
+
+<div class="row">
+    <div class="container">
+        <div class="visible-lg">
+            <div class="panel panel-default">
+              <!-- Default panel contents -->
+                  <div class="panel-heading">Most Popular Melons</div>
+                  <!-- Table -->
+                  <table class="table">
+                       <tr>
+                        <th>Melon</th>
+                        <th>Price</th> 
+                        <th>Color</th>
+                        <th>Country</th>
+                        <th>Juiciness Rating</th>
+                      </tr>
+                      <tr>
+                        <td>Ancient Canteloupe</td>
+                        <td>$4.99/lb</td> 
+                        <td>Mottled Dusty Rose</td>
+                        <td>Italy</td>
+                        <td>Wizened</td>
+                      </tr>
+                      <tr>
+                        <td>Honeydew</td>
+                        <td>$3.99/lb</td> 
+                        <td>Green with White Stripes</td>
+                        <td>France/Algeria</td>
+                        <td>Succulent</td>
+                      </tr>
+                       <tr>
+                        <td>Casaba</td>
+                        <td>$7.99/lb</td> 
+                        <td>Gold Leaf</td>
+                        <td>Turkey</td>
+                        <td>Luscious and Pulpy</td>
+                      </tr>
+                  </table>
+              </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- You need this in order to use JS-based components in the 
